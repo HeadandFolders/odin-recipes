@@ -6,5 +6,23 @@
     </head>
     <body>
         <h1>Leetcode Path Sum Recipe</h1>
+        <img src="skiing image path trees.jpg" alt="path trees" height="250px"/>
+        <h3>Description</h3>
+        <p>given the root of a binary tree and a targetSum return true if a root-to-leaf path exists with sum=targetSum. Scrumptious!</p>
+        <h4>Ingredients</h4>
+        <ul>
+            <li>helper function that takes 2 parameters</li>
+            <li>2 if statements</li>
+            <li>2 return statements</li>
+            
+        </ul>
+        <h4>Steps</h4>
+        <ol><li>in helper function, node and curSum are the parameters</li>
+        <li>if statement: if not node, return False</li>
+        <li>curSum+=node.val</li>
+        <li>check if not node.left and not node.right, to then return whether curSum==targetSum</li>
+        <li>return (helper function of .left OR .right) </li>
+        <li>call helper function on root node</li>
+        </ol>
     </body>
 </html>
